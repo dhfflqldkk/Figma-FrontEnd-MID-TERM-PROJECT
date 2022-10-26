@@ -1,0 +1,50 @@
+.social-media-icons-social-media-icons {
+  width: 112px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.social-media-icons-link {
+  display: contents;
+}
+.social-media-icons-instaicon {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.social-media-icons-link1 {
+  display: contents;
+}
+.social-media-icons-twittericon {
+  fill: var(--dl-color-primary-blue);
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.social-media-icons-link2 {
+  display: contents;
+}
+.social-media-icons-tiktokicon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+
+@media(max-width: 767px) {
+  .social-media-icons-root-class-name {
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+}
+@media(max-width: 479px) {
+  .social-media-icons-root-class-name {
+    margin-bottom: var(--dl-space-space-tenunits);
+  }
+}

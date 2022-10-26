@@ -1,101 +1,253 @@
-:root {
-  --dl-color-gray-blue: #74b5f1ff;
-  --dl-color-gray-black: #000000;
-  --dl-color-gray-cream: #fbfbfbff;
-  --dl-color-gray-white: #FFFFFF;
-  --dl-space-space-unit: 8px;
-  --dl-color-gray-cinder: #1e1e1eff;
-  --dl-color-primary-blue: #74b5f1ff;
-  --dl-color-primary-cream: #fbfbfbff;
-  --dl-radius-radius-round: 50%;
-  --dl-color-primary-cinder: #1e1e1eff;
-  --dl-size-size-maxcontent: 1414px;
-  --dl-space-space-halfunit: 4px;
-  --dl-space-space-tenunits: 80px;
-  --dl-radius-radius-radius2: 2px;
-  --dl-radius-radius-radius4: 4px;
-  --dl-radius-radius-radius8: 8px;
-  --dl-space-space-fiveunits: 40px;
-  --dl-space-space-fourunits: 32px;
-  --dl-space-space-doubleunit: 16px;
-  --dl-space-space-tripleunit: 24px;
-  --dl-color-primary-lightgray: #d9d9d9ff;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+
+
+
+.nav{
+    background-color: aqua;
+    height: 200px;;
+   
 }
-.teleport-show {
-  display: flex !important;
+
+
+body, html{
+    background-color: black;
 }
-.list-item {
-  display: list-item;
+
+.merch{
+position: absolute;
+width: 232px;
+height: 81px;
+left: 78px;
+top: 250px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 81px;
+
+color: #D9D9D9;
+
 }
-.button {
-  color: var(--dl-color-gray-black);
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  font-family: Open Sans;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+
+.sorting{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    padding-top: 135px;
+    text-decoration: none;
+    margin-inline-end: 90px;
+    gap: 30px;
 }
-.list {
-  width: 100%;
-  margin: 1em 0px 1em 0px;
-  display: block;
-  padding: 0px 0px 0px 1.5rem;
-  list-style-type: none;
-  list-style-position: outside;
+
+.sortby{
+    color: white;
+    text-decoration: none;
+    
 }
-.textarea {
-  color: var(--dl-color-gray-black);
-  cursor: auto;
-  padding: 0.5rem;
-  font-family: Open Sans;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+
+.size{
+    color: white;
+    text-decoration: none;
+    
 }
-.input {
-  color: var(--dl-color-gray-black);
-  cursor: auto;
-  padding: 0.5rem 1rem;
-  font-family: Open Sans;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+
+.filter{
+    color: white;
+    text-decoration: none;
 }
-.show {
-  display: flex !important;
-}
-.icon {
-  width: 100px;
-  object-fit: cover;
-}
-.text {
-  font-size: 18px;
-  font-family: Noto Sans;
-  font-weight: 400;
-  line-height: 1.55;
-  text-transform: none;
-  text-decoration: none;
-}
-.headers {
-  font-size: 96px;
-  font-family: Plus Jakarta Sans;
-  font-weight: 700;
-  line-height: 1.55;
-  text-transform: none;
-  text-decoration: none;
-}
-.section-Titles {
-  font-size: 48px;
-  font-family: Plus Jakarta Sans;
-  font-weight: 700;
-  line-height: 1.22;
-  text-transform: none;
-  text-decoration: none;
+
+.top{
+    display: flex;
+    flex-direction: row;
+    
 }
 
 
 
+.dashirt{
+    position: absolute;
+    width: 174px;
+    height: 190px;
+    left: 140px;
+    top: 450px;
+    border-radius: 10px;
+
+   
+}
+
+.price1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 205px;
+    bottom: 48px;
+    
+
+}
+.text1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 127px;
+    bottom: 74px;
+    text-decoration: none;
+}
+.blockshirt{
+   
+    position: absolute;
+    width: 208px;
+    height: 190px;
+    left: 657px;
+    top: 450px;
+    border-radius: 10px;   
+    }
+    
+    .price2{
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        display: flex;
+    
+        position: absolute;
+        left: 748px;
+        bottom: 48px;
+       
+    }
+    .text2{
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        display: flex;
+        position: absolute;
+        left: 668px;
+        bottom: 74px;
+        text-decoration: none;
+    }
+    
+    .mug{
+    
+        display: flex;
+    position: absolute;
+    width: 192px;
+    height: 184px;
+    left: 1190px;
+    top: 450px;
+    border-radius: 10px;
+        }
+        
+        .price3{
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            display: flex;
+            position: absolute;
+            left: 1280px;
+            bottom: 48px;
+        }
+        .text3{
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            display: flex;
+            position: absolute;
+            left: 1198px;
+            bottom: 74px;
+            text-decoration: none;
+        }
+    
+    
+        .blanket{
+    
+            position: absolute;
+            width: 158px;
+            height: 220px;
+            left: 142px;
+            top: 740px;
+            border-radius: 10px;
+            }
+            
+            .price4{
+                font-family: 'Open Sans', sans-serif;
+                color: white;
+                display: flex;
+                position: absolute;
+                left: 205px;
+                bottom: -270px;
+            }
+            .text4{
+        
+                font-family: 'Open Sans', sans-serif;
+                color: white;
+                display: flex;
+                position: absolute;
+                left: 127px;
+                bottom: -250px;
+                text-decoration: none;
+            }
+    
+            .bottle{
+    
+                position: absolute;
+                width: 158px;
+                height: 220px;
+                left: 675px;
+                top: 740px;
+                border-radius: 10px;
+                }
+                
+                .price5{
+                    font-family: 'Open Sans', sans-serif;
+                    color: white;
+                    display: flex;
+                    position: absolute;
+                    left: 748px;
+                    bottom: -270px;
+                }
+                .text5{
+                    font-family: 'Open Sans', sans-serif;
+                    color: white;
+                    display: flex;
+                    position: absolute;
+                    left: 668px;
+                    bottom: -250px;
+                    text-decoration: none;
+                }
+    
+                .blanket2{
+                    position: absolute;
+                    width: 158px;
+                    height: 220px;
+                    left: 1190px;
+                    top: 740px;
+                    border-radius: 10px;
+                    }
+                    
+                    .price6{
+                        font-family: 'Open Sans', sans-serif;
+                        color: white;
+                        display: flex;
+                        position: absolute;
+                        left: 1280px;
+                        bottom: -270px;
+                    }
+                    .text6{
+                        font-family: 'Open Sans', sans-serif;
+                        color: white;
+                        display: flex;
+                        position: absolute;
+                        left: 1198px;
+                        bottom: -250px;
+                        text-decoration: none;
+                    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

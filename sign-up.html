@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>The Rock</title>
-    <meta property="og:title" content="The Rock" />
+    <title>Sign-up - the-rock</title>
+    <meta property="og:title" content="Sign-up - the-rock" />
 
     <style data-tag="reset-style-sheet">
       html {
@@ -114,11 +114,11 @@
       }
     </style>
     <style data-section-id="dropdown">
-      [data="dropdown"]:hover > [data="dropdown-list"] {
+      [data="dropdown"]:hover > [data-="dropdown-list"] {
         display: flex;
       }
 
-      [data="dropdown"]:hover > div [data="dropdown-arrow"] {
+      [data-="dropdown"]:hover > div [data-="dropdown-arrow"] {
         transform: rotate(90deg);
       }
     </style>
@@ -126,13 +126,12 @@
   </head>
   <body>
     <div>
-      <link href="./about.css" rel="stylesheet" />
-
-      <div class="about-container">
+      <link href="./sign-up.css" rel="stylesheet" />
+      <div class="sign-up-container">
         <div data-role="Header" class="navbar-container-navbar-container">
           <div class="navbar-container-navbar">
             <div class="navbar-container-logo">
-              <a href="index.html" class="navbar-container-navlink">
+              <a href="home.html" class="navbar-container-navlink">
                 <img
                   alt="image"
                   src="assets/logo-200h.png"
@@ -185,7 +184,7 @@
               </a>
             </div>
             <div class="navbar-container-links-container">
-              <a href="index.html" class="navbar-container-navlink1">
+              <a href="home.html" class="navbar-container-navlink1">
                 <p class="navbar-container-home"><span>Home</span></p>
               </a>
               <a href="about.html" class="navbar-container-navlink2">
@@ -199,10 +198,7 @@
               </a>
             </div>
             <div class="navbar-container-cta-container">
-              <svg
-                viewBox="0 0 1024 1024"
-                class="navbar-container-shopping-icon"
-              >
+              <svg viewBox="0 0 1024 1024" class="navbar-container-shopping-icon">
                 <path
                   d="M810.667 213.333h-597.333l64-85.333h469.333zM929.877 230.059l-127.744-170.325c-8.363-11.136-21.077-17.024-34.133-17.067h-512c-13.909 0-26.283 6.656-34.133 17.067l-127.744 170.325c-1.835 2.389-3.456 5.035-4.736 7.808-2.773 5.803-4.096 12.032-4.053 18.133v597.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h597.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-597.333c0-9.344-3.029-18.005-8.064-24.96-0.171-0.213-0.299-0.427-0.469-0.64zM170.667 298.667h682.667v554.667c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-597.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165zM640 426.667c0 35.371-14.293 67.285-37.504 90.496s-55.125 37.504-90.496 37.504-67.285-14.293-90.496-37.504-37.504-55.125-37.504-90.496c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667c0 58.88 23.936 112.299 62.464 150.869s91.989 62.464 150.869 62.464 112.299-23.936 150.869-62.464 62.464-91.989 62.464-150.869c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667z"
                 ></path>
@@ -217,11 +213,8 @@
             </div>
             <div data-type="MobileMenu" class="navbar-container-mobile-menu">
               <div class="navbar-container-top">
-                <img alt="image" src="" class="navbar-container-image" />
-                <div
-                  data-type="CloseMobileMenu"
-                  class="navbar-container-container"
-                >
+                <img alt="image" src class="navbar-container-image" />
+                <div data-type="CloseMobileMenu" class="navbar-container-container">
                   <svg viewBox="0 0 1024 1024" class="navbar-container-icon03">
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
@@ -234,9 +227,7 @@
                   <a href="#features" class="navbar-container-link">
                     <span>features</span>
                   </a>
-                  <span class="navbar-container-link1">
-                    <span>services</span>
-                  </span>
+                  <span class="navbar-container-link1"><span>services</span></span>
                   <a href="#about-us" class="navbar-container-link2">
                     <span>About Us</span>
                   </a>
@@ -273,166 +264,63 @@
             </div>
           </div>
         </div>
-        <section id="about-page" class="about-about">
-          <div class="about-container1">
-            <div class="about-container2">
-              <h1 class="about-text section-Titles">ABOUT</h1>
-            </div>
-            <span class="about-text1 text">
-              Dwayne Douglas Johnson, also known by his ring name The Rock, is
-              an American actor, producer, businessman, and former professional
-              wrestler.
-            </span>
-          </div>
-          <div class="about-container3">
-            <img
-              alt="image"
-              src="assets/rock-about-1-800w.png"
-              class="about-image"
-            />
-            <img
-              alt="image"
-              src="assets/rock-about-2-800w.png"
-              class="about-image1"
-            />
-            <img
-              alt="image"
-              src="assets/rock-about-3-800w.png"
-              class="about-image2"
-            />
-          </div>
-        </section>
-        <div class="about-section-separator"></div>
-        <section id="films" class="about-films">
-          <div class="about-container4">
-            <div class="about-container5">
-              <h2 class="about-text2 section-Titles">FILMS</h2>
-            </div>
-            <span class="about-text3 text">
-              The Rock began acting in 1995 and from there on, he has been in
-              mutiple well known movies and won many awards.
-            </span>
-          </div>
-          <div class="about-container6">
-            <div class="about-html-node">
-              <style>
-                .scroll-tray {
-                  white-space: nowrap;
-                }
-                .scroll-tray div {
-                  display: inline-block;
-                }
-
-                .scroll-tray img {
-                  border-radius: 0.3rem;
-                  margin: 7px 5px;
-                  padding: 0;
-                  width: 340px;
-                }
-
-                .scroll-holder {
-                  overflow-x: hidden;
-                }
-
-                .scroll-holder .scroll-tray:first-child {
-                  animation: scroll-tray-hero 70s linear infinite;
-                }
-
-                @keyframes scroll-tray-hero {
-                  0% {
-                    transform: translateX(0);
-                  }
-
-                  99.99% {
-                    transform: translateX(-4000px);
-                  }
-
-                  100% {
-                    transform: translateX(0);
-                  }
-                }
-              </style>
-
-              <section>
-                <div class="scroll-holder">
-                  <div class="scroll-tray">
-                    <div>
-                      <img
-                        src="https://lumiere-a.akamaihd.net/v1/images/p_junglecruise_21740_v2_bb7f0ae4.jpeg?region=0%2C0%2C540%2C810"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://cineplex.cpxstoreimages.com/cineplex?set=imageSize[large276],imageURL[https%3A%2F%2Fcineplex-cdn5.dmlib.com%2Fu%2FAssets%2Fa1%2F76%2F19%2Fa1-5859544%2Fs1-40125013%2Fp_800x1200_FastFuriousPresentsHobbsShaw_En_09243019.jpg]&amp;call=url[file:web/sizing]&amp;sink"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://m.media-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_FMjpg_UX1000_.jpg"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSoynRXLd0H2yyHlGh9OGi_IYMK37uJF8SU2LQDq0B8Ulhh8LDg"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://lumiere-a.akamaihd.net/v1/images/p_moana_20530_214883e3.jpeg"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://images.moviesanywhere.com/7df30161e9eeb8994575921dd608e796/b239c4f5-952a-4757-a145-8f56f4de07f8.jpg"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://m.media-amazon.com/images/M/MV5BMTBmNWQ0Y2UtOTQ3Yy00OTZjLWE0MWYtOTk1YWRiNTFlN2EzXkEyXkFqcGdeQXVyMTE5NzI0NDM@._V1_FMjpg_UX1000_.jpg"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_.jpg"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://m.media-amazon.com/images/M/MV5BMTQ4NjQzMjQxNF5BMl5BanBnXkFtZTcwNTEzMDY4Mg@@._V1_.jpg"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://m.media-amazon.com/images/I/91XIHlchVML._AC_SY445_.jpg"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://upload.wikimedia.org/wikipedia/en/b/b7/The_Mummy_Returns_poster.jpg"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://upload.wikimedia.org/wikipedia/en/1/1d/The_Scorpion_King_poster.jpg"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/jumanjithenextlevel_onesheet_1400x2100.jpg?itok=1_kQc_Bz"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="https://amc-theatres-res.cloudinary.com/v1579119117/amc-cdn/production/2/movies/38600/38553/Poster/p_800x1200_Journey2_MysteriousIslandThe_En_100316.jpg"
-                      />
-                    </div>
+        <section class="sign-up-sign-up">
+          <div class="sign-up-container1">
+            <div class="sign-up-container2">
+              <div class="sign-up-container3">
+                <span class="sign-up-text sub-Heading">Get Started</span>
+                <span class="sign-up-text01">
+                  <span>Already have an account?</span>
+                  <span class="sign-up-text03">Sign in</span>
+                </span>
+                <form class="sign-up-form">
+                  <div>
+                    <span class="sign-up-email-adress">Email Address</span>
+                    <input
+                      type="email"
+                      id="email-input"
+                      required
+                      placeholder="Enter your email"
+                      name="email"
+                      class="sign-up-textinput input"
+                    />
+                  </div>
+                  <div class="sign-up-password">
+                    <span class="sign-up-set-password">Set Password</span>
+                    <input
+                      type="set-password"
+                      id="set-password"
+                      required
+                      placeholder="Enter password"
+                      name="password"
+                      class="sign-up-textinput1 input"
+                    />
+                  </div>
+                </form>
+                <div class="sign-up-container4">
+                  <div class="sign-up-container5">
+                    <input type="checkbox" class="sign-up-checkbox" />
+                    <span class="sign-up-text04">
+                      <span>I agree to the statements in</span>
+                      <span class="sign-up-text06">Terms of service</span>
+                    </span>
                   </div>
                 </div>
-              </section>
+                <button class="sign-up-button button">Sign up</button>
+              </div>
+            </div>
+            <div class="sign-up-container6">
+              <div class="sign-up-container7">
+                <span class="sign-up-text07">
+                  <span>BECOME</span>
+                  <span>A</span>
+                </span>
+                <span class="sign-up-text10">PEBBLE</span>
+              </div>
             </div>
           </div>
         </section>
-        <div class="about-section-separator1"></div>
+        <div class="sign-up-section-separator"></div>
         <div id="footer" class="footer-footer">
           <div
             class="social-media-icons-social-media-icons social-media-icons-root-class-name"
@@ -482,9 +370,7 @@
           </div>
           <div class="footer-container">
             <div class="footer-footer-info">
-              <p class="footer-placing-an-order">
-                <span>Placing an order</span>
-              </p>
+              <p class="footer-placing-an-order"><span>Placing an order</span></p>
               <p class="footer-delivery-options">
                 <span>Delivery options</span>
                 <br />
@@ -499,9 +385,7 @@
               </p>
             </div>
             <div class="footer-footer-info2">
-              <p class="footer-terms-of-service">
-                <span>Terms of service</span>
-              </p>
+              <p class="footer-terms-of-service"><span>Terms of service</span></p>
               <p class="footer-privacy">
                 <span>Privacy</span>
                 <br />
@@ -515,5 +399,3 @@
         </div>
       </div>
     </div>
-  </body>
-</html>

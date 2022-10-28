@@ -1,28 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>the-rock</title>
-    <meta property="og:title" content="the-rock" />
+    <title>The Rock</title>
+    <meta property="og:title" content="The Rock" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type="button"]:-moz-focus,
+      [type="reset"]:-moz-focus,
+      [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
     <style data-tag="default-style-sheet">
       html {
         font-family: Noto Sans;
-        font-size: 18px;
+        font-size: 24px;
       }
 
       body {
         font-weight: 400;
-        font-style:normal;
+        font-style: normal;
         text-decoration: none;
         text-transform: none;
         letter-spacing: normal;
         line-height: 1.55;
         color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
+        background-color: var(--dl-color-gray-cinder);
       }
     </style>
     <link
@@ -38,17 +110,17 @@
 
     <style>
       html {
-      scroll-behavior: smooth;
+        scroll-behavior: smooth;
       }
     </style>
     <style data-section-id="dropdown">
-      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
-          display: flex;
-        }
+      [data="dropdown"]:hover > [data="dropdown-list"] {
+        display: flex;
+      }
 
-        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
-          transform: rotate(90deg);
-        }
+      [data="dropdown"]:hover > div [data="dropdown-arrow"] {
+        transform: rotate(90deg);
+      }
     </style>
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -119,17 +191,12 @@
               <a href="about.html" class="navbar-container-navlink2">
                 <p class="navbar-container-about"><span>About</span></p>
               </a>
-              <a
-                href="https:///merch/"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="navbar-container-link"
-              >
+              <a href="merch.html" class="navbar-container-navlink3">
                 <p class="navbar-container-merch"><span>Merch</span></p>
               </a>
-              <button class="navbar-container-signin-button">
-                <span>Sign in</span>
-              </button>
+              <a href="sign-up.html" class="navbar-container-signin-button">
+                <span>Sign up</span>
+              </a>
             </div>
             <div class="navbar-container-cta-container">
               <svg
@@ -150,11 +217,7 @@
             </div>
             <div data-type="MobileMenu" class="navbar-container-mobile-menu">
               <div class="navbar-container-top">
-                <img
-                  alt="image"
-                  src=""
-                  class="navbar-container-image"
-                />
+                <img alt="image" src="" class="navbar-container-image" />
                 <div
                   data-type="CloseMobileMenu"
                   class="navbar-container-container"
@@ -168,22 +231,18 @@
               </div>
               <div class="navbar-container-mid">
                 <div class="navbar-container-links-container1">
-                  <a href="#features" class="navbar-container-link1">
+                  <a href="#features" class="navbar-container-link">
                     <span>features</span>
                   </a>
-                  <span class="navbar-container-link2">
+                  <span class="navbar-container-link1">
                     <span>services</span>
                   </span>
-                  <a href="#about-us" class="navbar-container-link3">
+                  <a href="#about-us" class="navbar-container-link2">
                     <span>About Us</span>
                   </a>
-                  <a href="#contact" class="navbar-container-link4">
-                    <span>contact</span>
-                  </a>
+                  <a href="#contact" class="navbar-container-link3">contact</a>
                 </div>
-                <button class="navbar-container-cta-btn">
-                  <span>sTART BUILDING</span>
-                </button>
+                <button class="navbar-container-cta-btn">Cta_btn</button>
               </div>
               <div class="navbar-container-bot">
                 <div class="navbar-container-social-links-container">
@@ -322,14 +381,14 @@
           </div>
           <div class="home-checkboxes-signup">
             <div class="home-emails">
-              <input type="checkbox" checked="true" class="home-checkbox" />
+              <input type="checkbox" class="home-checkbox" />
               <p class="home-text23">
                 I agree to receive future email communications regarding The
                 Rocks latest movies and merch.&nbsp;
               </p>
             </div>
             <div class="home-termsconditions">
-              <input type="checkbox" checked="true" class="home-checkbox1" />
+              <input type="checkbox" required="" class="home-checkbox1" />
               <p class="home-text24">
                 <span>I agree to the</span>
                 <span class="home-text26">terms &amp; conditions</span>

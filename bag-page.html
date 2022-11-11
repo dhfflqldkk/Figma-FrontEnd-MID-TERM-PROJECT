@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>sign up</title>
-    <meta property="og:title" content="sign up" />
+    <title>bag</title>
+    <meta property="og:title" content="bag" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -38,20 +38,20 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
       data-tag="font"
     />
-   
+
     <style>
       html {
       scroll-behavior: smooth;
       }
     </style>
-    
+   
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div>
-      <link href="./sign-up.css" rel="stylesheet" />
+      <link href="./bag-page.css" rel="stylesheet" />
 
-      <div class="sign-up-container">
+      <div class="bag-page-container">
         <div data-role="Header" class="navbar-container-navbar-container">
           <div class="navbar-container-navbar">
             <div class="navbar-container-logo">
@@ -198,63 +198,44 @@
             </div>
           </div>
         </div>
-        <section class="sign-up-sign-up">
-          <div class="sign-up-container1">
-            <div class="sign-up-container2">
-              <div class="sign-up-container3">
-                <h1 class="sign-up-text subHeading">Get Started</h1>
-                <h2 class="sign-up-text01">
-                  <span>Already have an account?</span>
-                  <span class="sign-up-text03">Sign in</span>
-                </h2>
-                <form class="sign-up-form">
-                  <div>
-                    <span class="sign-up-email-adress">Email Address</span>
-                    <input
-                      type="email"
-                      id="email-input"
-                      name="email"
-                      required=""
-                      placeholder="Enter your email"
-                      class="sign-up-textinput input"
-                    />
-                  </div>
-                  <div class="sign-up-password">
-                    <span class="sign-up-set-password">Set Password</span>
-                    <input
-                      type="set-password"
-                      id="set-password"
-                      name="password"
-                      required=""
-                      placeholder="Enter password"
-                      class="sign-up-textinput1 input"
-                    />
-                  </div>
-                </form>
-                <div class="sign-up-container4">
-                  <div class="sign-up-container5">
-                    <input type="checkbox" class="sign-up-checkbox" />
-                    <p class="sign-up-text04">
-                      <span>I agree to the statements in</span>
-                      <span class="sign-up-text06">Terms of service</span>
-                    </p>
-                  </div>
-                </div>
-                <button class="sign-up-button button">Sign up</button>
-              </div>
-            </div>
-            <div class="sign-up-container6">
-              <div class="sign-up-container7">
-                <p class="sign-up-text07">
-                  <span>BECOME</span>
-                  <span>A</span>
-                </p>
-                <p class="sign-up-text10">PEBBLE</p>
-              </div>
-            </div>
+        <div class="bag-page-container1">
+          <div class="bag-page-container2">
+            <h1 class="bag-page-text subHeading">My Bag</h1>
           </div>
-        </section>
-        <div class="sign-up-section-separator"></div>
+        </div>
+        <div class="bag-page-section-separator"></div>
+        <div class="bag-page-container3">
+          <span class="bag-page-text01">x</span>
+          <img
+            alt="image"
+            src="assets/image%2010-300w.png"
+            class="bag-page-body-pillow"
+          />
+          <span class="bag-page-text02">
+            <span>Limited Edition&nbsp;</span>
+            <span>Body Pillow</span>
+          </span>
+          <span class="bag-page-text05">$350</span>
+          <select required="" name="select" class="bag-page-select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="bag-page-section-separator1"></div>
+        <div class="bag-page-container4">
+          <p class="bag-page-text06">Subtotal: $350</p>
+          <p class="bag-page-text07">Sales Tax: $27</p>
+          <p class="bag-page-text08">
+            <span>Grand Total: $377</span>
+            <br />
+          </p>
+        </div>
+        <div class="bag-page-section-separator2"></div>
+        <button type="submit" class="bag-page-shopnow-button button">
+          Check Out
+        </button>
+        <div class="bag-page-section-separator3"></div>
         <div id="footer" class="footer-footer">
           <div
             class="social-media-icons-social-media-icons social-media-icons-root-class-name"

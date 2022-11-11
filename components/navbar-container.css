@@ -55,7 +55,7 @@
   display: flex;
   z-index: 100;
   position: sticky;
-  box-shadow: 5px 5px 10px 0px #74b5f1;
+  box-shadow: 5px 5px 20px 1px rgba(116, 181, 241, 0.66);
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -98,7 +98,7 @@
 .navbar-container-navlink1 {
   display: contents;
 }
-.navbar-container-index {
+.navbar-container-home {
   color: var(--dl-color-primary-cream);
   font-size: 18px;
   align-self: center;
@@ -155,7 +155,7 @@
   padding-bottom: var(--dl-space-space-unit);
   text-transform: capitalize;
   text-decoration: none;
-  background-color: var(--dl-color-gray-cream);
+  background-color: #fbfbfbff;
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
@@ -172,11 +172,15 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.navbar-container-navlink4 {
+  display: contents;
+}
 .navbar-container-shopping-icon {
   fill: var(--dl-color-primary-cream);
   width: 24px;
   height: 24px;
   align-self: center;
+  text-decoration: none;
 }
 .navbar-container-burger-menu {
   display: none;
@@ -197,7 +201,7 @@
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
-  background-color: var(--dl-color-gray-white);
+  background-color: #FFFFFF;
 }
 .navbar-container-top {
   flex: 0 0 auto;
@@ -271,7 +275,7 @@
   text-decoration: none;
 }
 .navbar-container-cta-btn {
-  color: var(--dl-color-gray-white);
+  color: #FFFFFF;
   font-size: 18px;
   font-family: Noto Sans;
   font-weight: 400;
@@ -339,10 +343,10 @@
     padding-top: 4px;
     border-radius: var(--dl-radius-radius-radius4);
     padding-right: 4px;
-    background-color: var(--dl-color-gray-black);
+    background-color: #000000;
   }
   .navbar-container-icon01 {
-    fill: var(--dl-color-gray-white);
+    fill: #FFFFFF;
   }
 }
 @media(max-width: 479px) {
